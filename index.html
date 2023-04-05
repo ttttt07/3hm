@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <form method="post">
+    
+    <label> First name
+        <input type="text" name="fname" required placeholder="Enter first name...">
+    </label>
+
+    <label> Last name
+        <input type="text" name="lname" required placeholder="Enter last name...">
+    </label>
+
+    <label> Email
+        <input type="email" name="email" required>
+    </label>
+
+    <label>Message
+        <textarea name="mes" cols="20" rows="3"></textarea>
+    </label>
+
+    <label> Gender
+      <select name="gender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+      </select>
+    </label>
+
+    <label>Age
+        <input type="number" min= "1" max ="100" name="age" required>
+    </label>
+
+    <label>Birthday
+        <input type="date" name="birth" required>
+    </label>
+
+    <button type="submit">Submit</button>
+</form>
+
+  <div class="form2">
+    <form method="post">
+    
+            <label>Name:
+                <br>
+                <input type="text" name="name" required>
+            </label>
+    
+        <label> Email:
+            <br>
+            <input type="email" name="email" required>
+        </label>
+
+    
+        <label>Message:
+            <br>
+            <textarea name="mes" cols="65" rows="3"></textarea>
+        </label>
+    
+        <button class="submit" type="submit">Submit</button>
+   
+      </form>
+  </div>
+</body>
+</html>
